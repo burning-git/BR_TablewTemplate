@@ -11,9 +11,19 @@ tablew的模版。减少系统代理方法 重复率
  ** 去掉了代理，那么意味着 需要 block 。 因此 BR_TablewTemplate 实现方式也是全部是 blcok，需要注意 retain circle
  * 根据需求选择初始化方法
  
-   ![Mark](BR_TablewTemplate/Resource/init_method.png)
- 
+   ![图片加载](BR_TablewTemplate/Resource/init_method.png)
  
  * 自定义高度的回调
   - (void)BR_addRowHeightBlcok:(BR_HeightForRowAtIndexPathBlcok)rowHeight;
+ * 点击事件的回调
+ - (void)BR_addDidSelectRowAtIndexPathBlcok:(BR_DidSelectRowAtIndexPathBlcok)selectedBlcok;
+ * 删除cell 的回调，系统自带的方式删除
+ - (void)BR_addDeleteCellIndexPathBlock:(BR_CellCommitEditingIndexPathBlock)deleteBlcok;
+ * 更新 数据源  (ps:如果带有 删除功能，最好传引用，不要copy)
+ - (void)BR_updateDataArrayBlock:(BR_GetTablewDataArrayBlcok)dataBlock;
+ * 替换tablew，用于在已有的tablew 上面做处理
+ - (void)BR_ReplaceTablew:(UITableView *)tablew;
+
+
+  
  
