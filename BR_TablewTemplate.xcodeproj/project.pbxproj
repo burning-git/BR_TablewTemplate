@@ -17,6 +17,7 @@
 		666C0D661DEFEE3B006614D7 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 666C0D611DEFEE3B006614D7 /* CustomTableViewCell.xib */; };
 		666C0D671DEFEE3B006614D7 /* BRTablewTempelte.m in Sources */ = {isa = PBXBuildFile; fileRef = 666C0D641DEFEE3B006614D7 /* BRTablewTempelte.m */; };
 		666C0D6A1DEFF585006614D7 /* init_method.png in Resources */ = {isa = PBXBuildFile; fileRef = 666C0D691DEFF585006614D7 /* init_method.png */; };
+		66C097571DF04472004AB7E7 /* user_demo.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C097561DF04472004AB7E7 /* user_demo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		666C0D631DEFEE3B006614D7 /* BRTablewTempelte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRTablewTempelte.h; sourceTree = "<group>"; };
 		666C0D641DEFEE3B006614D7 /* BRTablewTempelte.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRTablewTempelte.m; sourceTree = "<group>"; };
 		666C0D691DEFF585006614D7 /* init_method.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = init_method.png; sourceTree = "<group>"; };
+		66C097561DF04472004AB7E7 /* user_demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_demo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		666C0D681DEFF585006614D7 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				66C097561DF04472004AB7E7 /* user_demo.png */,
 				666C0D691DEFF585006614D7 /* init_method.png */,
 			);
 			path = Resource;
@@ -174,6 +177,7 @@
 				666C0D661DEFEE3B006614D7 /* CustomTableViewCell.xib in Resources */,
 				666C0D6A1DEFF585006614D7 /* init_method.png in Resources */,
 				666C0D531DEFEE0C006614D7 /* Main.storyboard in Resources */,
+				66C097571DF04472004AB7E7 /* user_demo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +347,7 @@
 				666C0D5E1DEFEE0C006614D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

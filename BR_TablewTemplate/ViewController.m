@@ -29,7 +29,7 @@
         return cell;
         
     } withHeaderBlcok:^id(UITableView *tablew, NSInteger section) {
-        UIView *header = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 30)];
+        UIView *header = [[UIView alloc] initWithFrame:CGRectMake(0, 40, 100, 30)];
         return header;
         
     } withFooderBlcok:^id(UITableView *tablew, NSInteger section) {
