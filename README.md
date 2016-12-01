@@ -13,19 +13,19 @@ tablew的模版。减少系统代理方法 重复率
  
    ![图片加载](BR_TablewTemplate/Resource/init_method.png)
  
- * 自定义高度的回调
+  * 自定义高度的回调
   - (void)BR_addRowHeightBlcok:(BR_HeightForRowAtIndexPathBlcok)rowHeight;
- * 点击事件的回调
- - (void)BR_addDidSelectRowAtIndexPathBlcok:(BR_DidSelectRowAtIndexPathBlcok)selectedBlcok;
- * 删除cell 的回调，系统自带的方式删除
- - (void)BR_addDeleteCellIndexPathBlock:(BR_CellCommitEditingIndexPathBlock)deleteBlcok;
- * 更新 数据源  (ps:如果带有 删除功能，最好传引用，不要copy)
- - (void)BR_updateDataArrayBlock:(BR_GetTablewDataArrayBlcok)dataBlock;
- * 替换tablew，用于在已有的tablew 上面做处理
- - (void)BR_ReplaceTablew:(UITableView *)tablew;
+  * 点击事件的回调
+  - (void)BR_addDidSelectRowAtIndexPathBlcok:(BR_DidSelectRowAtIndexPathBlcok)selectedBlcok;
+  * 删除cell 的回调，系统自带的方式删除
+  - (void)BR_addDeleteCellIndexPathBlock:(BR_CellCommitEditingIndexPathBlock)deleteBlcok;
+  * 更新 数据源  (ps:如果带有 删除功能，最好传引用，不要copy)
+  - (void)BR_updateDataArrayBlock:(BR_GetTablewDataArrayBlcok)dataBlock;
+  * 替换tablew，用于在已有的tablew 上面做处理
+  - (void)BR_ReplaceTablew:(UITableView *)tablew;
 
- ** pod 引入 (如果没有搜索到 还未上传)
-    pod 'BRTablewTemplate', '~> 0.1.0'
+** pod 引入 (如果没有搜索到 还未上传)
+   pod 'BRTablewTemplate', '~> 0.1.0'
     
     
 ### 使用实例
