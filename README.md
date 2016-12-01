@@ -11,7 +11,7 @@ tablew的模版。减少系统代理方法 重复率
  ** 去掉了代理，那么意味着 需要 block 。 因此 BR_TablewTemplate 实现方式也是全部是 blcok，需要注意 retain circle
  * 根据需求选择初始化方法
  
-   ![](./init_method.png)
+   ![](../init_method.png)
  
  
  * 自定义高度的回调
