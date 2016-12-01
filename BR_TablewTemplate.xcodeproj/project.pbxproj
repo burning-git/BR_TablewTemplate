@@ -13,6 +13,9 @@
 		666C0D531DEFEE0C006614D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666C0D511DEFEE0C006614D7 /* Main.storyboard */; };
 		666C0D551DEFEE0C006614D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666C0D541DEFEE0C006614D7 /* Assets.xcassets */; };
 		666C0D581DEFEE0C006614D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666C0D561DEFEE0C006614D7 /* LaunchScreen.storyboard */; };
+		666C0D651DEFEE3B006614D7 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 666C0D601DEFEE3B006614D7 /* CustomTableViewCell.m */; };
+		666C0D661DEFEE3B006614D7 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 666C0D611DEFEE3B006614D7 /* CustomTableViewCell.xib */; };
+		666C0D671DEFEE3B006614D7 /* BRTablewTempelte.m in Sources */ = {isa = PBXBuildFile; fileRef = 666C0D641DEFEE3B006614D7 /* BRTablewTempelte.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		666C0D541DEFEE0C006614D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		666C0D571DEFEE0C006614D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		666C0D591DEFEE0C006614D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		666C0D5F1DEFEE3B006614D7 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		666C0D601DEFEE3B006614D7 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		666C0D611DEFEE3B006614D7 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		666C0D631DEFEE3B006614D7 /* BRTablewTempelte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRTablewTempelte.h; sourceTree = "<group>"; };
+		666C0D641DEFEE3B006614D7 /* BRTablewTempelte.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRTablewTempelte.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 		666C0D471DEFEE0C006614D7 /* BR_TablewTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				666C0D621DEFEE3B006614D7 /* TablewTemplate */,
+				666C0D5F1DEFEE3B006614D7 /* CustomTableViewCell.h */,
+				666C0D601DEFEE3B006614D7 /* CustomTableViewCell.m */,
+				666C0D611DEFEE3B006614D7 /* CustomTableViewCell.xib */,
 				666C0D4B1DEFEE0C006614D7 /* AppDelegate.h */,
 				666C0D4C1DEFEE0C006614D7 /* AppDelegate.m */,
 				666C0D4E1DEFEE0C006614D7 /* ViewController.h */,
@@ -77,6 +89,15 @@
 				666C0D491DEFEE0C006614D7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		666C0D621DEFEE3B006614D7 /* TablewTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				666C0D631DEFEE3B006614D7 /* BRTablewTempelte.h */,
+				666C0D641DEFEE3B006614D7 /* BRTablewTempelte.m */,
+			);
+			path = TablewTemplate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +160,7 @@
 			files = (
 				666C0D581DEFEE0C006614D7 /* LaunchScreen.storyboard in Resources */,
 				666C0D551DEFEE0C006614D7 /* Assets.xcassets in Resources */,
+				666C0D661DEFEE3B006614D7 /* CustomTableViewCell.xib in Resources */,
 				666C0D531DEFEE0C006614D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,6 +174,8 @@
 			files = (
 				666C0D501DEFEE0C006614D7 /* ViewController.m in Sources */,
 				666C0D4D1DEFEE0C006614D7 /* AppDelegate.m in Sources */,
+				666C0D671DEFEE3B006614D7 /* BRTablewTempelte.m in Sources */,
+				666C0D651DEFEE3B006614D7 /* CustomTableViewCell.m in Sources */,
 				666C0D4A1DEFEE0C006614D7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
