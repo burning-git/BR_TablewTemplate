@@ -16,6 +16,7 @@
 		666C0D651DEFEE3B006614D7 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 666C0D601DEFEE3B006614D7 /* CustomTableViewCell.m */; };
 		666C0D661DEFEE3B006614D7 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 666C0D611DEFEE3B006614D7 /* CustomTableViewCell.xib */; };
 		666C0D671DEFEE3B006614D7 /* BRTablewTempelte.m in Sources */ = {isa = PBXBuildFile; fileRef = 666C0D641DEFEE3B006614D7 /* BRTablewTempelte.m */; };
+		666C0D6A1DEFF585006614D7 /* init_method.png in Resources */ = {isa = PBXBuildFile; fileRef = 666C0D691DEFF585006614D7 /* init_method.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		666C0D611DEFEE3B006614D7 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		666C0D631DEFEE3B006614D7 /* BRTablewTempelte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRTablewTempelte.h; sourceTree = "<group>"; };
 		666C0D641DEFEE3B006614D7 /* BRTablewTempelte.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRTablewTempelte.m; sourceTree = "<group>"; };
+		666C0D691DEFF585006614D7 /* init_method.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = init_method.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		666C0D471DEFEE0C006614D7 /* BR_TablewTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				666C0D681DEFF585006614D7 /* Resource */,
 				666C0D621DEFEE3B006614D7 /* TablewTemplate */,
 				666C0D5F1DEFEE3B006614D7 /* CustomTableViewCell.h */,
 				666C0D601DEFEE3B006614D7 /* CustomTableViewCell.m */,
@@ -98,6 +101,14 @@
 				666C0D641DEFEE3B006614D7 /* BRTablewTempelte.m */,
 			);
 			path = TablewTemplate;
+			sourceTree = "<group>";
+		};
+		666C0D681DEFF585006614D7 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				666C0D691DEFF585006614D7 /* init_method.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +172,7 @@
 				666C0D581DEFEE0C006614D7 /* LaunchScreen.storyboard in Resources */,
 				666C0D551DEFEE0C006614D7 /* Assets.xcassets in Resources */,
 				666C0D661DEFEE3B006614D7 /* CustomTableViewCell.xib in Resources */,
+				666C0D6A1DEFF585006614D7 /* init_method.png in Resources */,
 				666C0D531DEFEE0C006614D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
