@@ -8,5 +8,13 @@ tablew的模版。减少系统代理方法 重复率
  * 后续希望实现 网络层＋ TablewTemplate
  
 ### 使用方式 
- * 去掉了代理，那么意味着 需要 block 。 因此 BR_TablewTemplate 实现方式也是全部是 blcok，需要注意 retain circle
+ ** 去掉了代理，那么意味着 需要 block 。 因此 BR_TablewTemplate 实现方式也是全部是 blcok，需要注意 retain circle
+ * 根据需求选择初始化方法
+ 
+ 
+ 
+ * /*!
+ *  @brief 每行高度row 的回调
+ */
+- (void)BR_addRowHeightBlcok:(BR_HeightForRowAtIndexPathBlcok)rowHeight;
  
