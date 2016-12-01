@@ -26,4 +26,8 @@ tablew的模版。减少系统代理方法 重复率
 
  ** pod 引入 (如果没有搜索到 还未上传)
     pod 'BRTablewTemplate', '~> 0.1.0'
+    
+    
+### 使用实例
 
+  ![图片加载](BR_TablewTemplate/Resource/user_demo.png)
