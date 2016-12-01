@@ -25,5 +25,5 @@ tablew的模版。减少系统代理方法 重复率
  - (void)BR_ReplaceTablew:(UITableView *)tablew;
 
  ** pod 引入
-    pod 'BR_TablewTemplate', '~> 0.1.0'
+    pod 'BRTablewTemplate', '~> 0.1.0'
 
