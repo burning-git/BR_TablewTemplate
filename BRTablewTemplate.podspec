@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "BRTablewTemplate"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "tablew template"
 
   # This description is used to generate tags and improve search results.
@@ -100,7 +100,7 @@ Pod::Spec.new do |s|
   #  A list of resources included with the Pod. These are copied into the
   #  target bundle with a build phase script. Anything else will be cleaned.
   #  You can preserve files from being cleaned, please don't preserve
-  #  non-essential files like tests, examples and documentation.
+  #  non-essential files wqlike tests, examples and documentation.
   #
 
   # s.resource  = "icon.png"
