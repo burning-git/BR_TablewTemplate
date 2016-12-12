@@ -23,8 +23,9 @@ tablew的模版。减少系统代理方法 重复率
   - (void)BR_updateDataArrayBlock:(BR_GetTablewDataArrayBlcok)dataBlock;
   * 替换tablew，用于在已有的tablew 上面做处理
   - (void)BR_ReplaceTablew:(UITableView *)tablew;
-
-** pod 引入 (如果没有搜索到 还未上传, ![试试](http://blog.cocoachina.com/article/29127))
+  
+### Pod 引入
+   ** pod 引入 (如果没有搜索到 还未上传, ![试试](http://blog.cocoachina.com/article/29127))
    pod 'BRTablewTemplate', '~> 0.1.1'
     
     
